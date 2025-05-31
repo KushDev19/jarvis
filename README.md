@@ -1,2 +1,1 @@
-# jarvis
-# jarvis
+# This is Virtual assistant like Alexa, siri. but a very small defined version it can tell you generic answers with or even have commands such as open youtube. you can edit the music dictionary according to your choice to add them to command such that it can play music.
