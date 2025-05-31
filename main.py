@@ -9,7 +9,7 @@ import edge_tts
 
 recognizer = sr.Recognizer()
 
-newsapi = "8321475cbaa64061b7c58a7fe77607cf"
+newsapi = "YOUR_API"
     
 async def tts_play(text, voice="en-US-AriaNeural", rate="+20%"):
     # Create the TTS stream
@@ -32,7 +32,7 @@ def speak(text, voice="en-US-AriaNeural", rate="+20%"):
     
 def aiProcess(command):
     client = OpenAI(
-    api_key="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"
+    api_key="Your_OpenAI_API"
     )
 
     completion = client.chat.completions.create(
